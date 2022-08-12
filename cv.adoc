@@ -1,0 +1,62 @@
+= CV
+
+== Objective
+
+Build or lead a software team working on Linux to embrace change, provide timely
+delivery, avoid waste and with minimal issues from production.
+
+== Highlights
+
+- Languages: Go, Bash, C, C++, Java, Python, Scala, Make, AWK
+- Tools: Redis, Kafka, Git, Dockers, Prometheus, Ansible, Hadoop
+- Linux system calls and configuration
+
+== What can I do?
+
+- Construct command-line based software for Unix-like (e.g. CentOS, FreeBSD)
+  operating systems. 
+- Debug and resolve issues on Linux (tcpdump, dstat, strace)
+- Design applications for high availability, scalability, manageability and
+  extensibility
+- Improve team output via system-wide solutions. Work closely with the Dev
+  manager to manage scope, date, work breakdown.
+- Communicate effectively in written English
+- Guide multiple engineers on low-level design using design patterns. Develop
+  similar competent engineers over 1-2 years.
+- Maintain neat Git history through rebasing, commit splicing and avoiding
+  merge commits.
+
+== Achievements
+
+Some real life achievements:
+
+- Self learnt Go and introduced it in the team. Go is a unique language that
+  gives fast development as well as runs quickly. Its avoidance of common
+  sources of slowness like build-time and run-time dependency management has a
+  direct impact on the business. Ultimately, we brought it to good use,
+  writing over 20,000 lines of code (measured using
+  https://github.com/AlDanial/cloc[cloc]). (2019-)
+- Fully defined performance measurement procedure that was used across a dozen
+  applications.
+- Introduced the use of Bash scripts (aka `run-tests.sh`) to do a basic
+  integration checks. (2020)
+- Traffic interception using iptables (2019)
+- Log capture (sysdump, plugins)
+- Writing GSX and GIM to Kafka (JSON). This was done by extending logging.
+  (2021).
+- Fully defined and implemented the release process from single command build
+  to RPM creation following https://semver.org/[semantic versioning] guidelines.
+- Maintainer of more than 20 Git repos in the company.
+
+== Who am I?
+
+- Strong understanding of Unix philosophy (e.g. writing tools that do one
+  thing well, improving functionality by making one tool take the output of
+  another).
+- Like documentation using a lightweight markup language like
+  https://asciidoctor.org/docs/what-is-asciidoc/[AsciiDoc].
+- Love technology and working with brilliant people
+- Believe that great work gets done by making small improvements
+- Post graduate in Computer Science and Engineering from IIT Roorkee.
+- Continuously employed since the last 17 years. Regularly on retention
+  bonuses.
