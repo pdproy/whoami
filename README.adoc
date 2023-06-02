@@ -2,9 +2,9 @@
 
 == Objective
 
-Build or lead a software team working on Linux to embrace change, provide
-timely delivery, avoid waste and with minimal issues from production.
-
+Contribute individually, build or lead a software team working on Linux to
+embrace change, provide timely delivery, avoid waste and with minimal issues
+from production.
 
 == Highlights
 
@@ -12,21 +12,23 @@ timely delivery, avoid waste and with minimal issues from production.
 - Scripting: Bash, Ansible, AWK
 - Databases: Redis, ClickHouse
 - Message Queue: Kafka
-- Tools: Git, Docker, Prometheus, Make, CMake, Hadoop
+- System Monitoring: Prometheus, Pushgateway
+- Tools: Git, Docker, Make, CMake, Hadoop
 - Linux system calls and kernel configuration
 
 == What can I do?
 
 - Construct command-line based software for Unix-like (e.g. CentOS, FreeBSD)
-  operating systems. 
+  operating systems (particularly in Go and Bash).
 - Debug and resolve issues on Linux (tcpdump, dstat, strace).
 - Design applications for high availability, scalability, manageability, and
-  extensibility.
-- Improve team output via system-wide solutions. Work closely with the Dev
+  extensibility. Make use of design patterns and SOLID principles.
+- Improve team output via system-wide solutions. Work closely with the Project
   manager to manage scope, date and work breakdown.
+- Convert high-level work breakdown into user stories.
 - Communicate effectively in English.
-- Guide multiple engineers on low-level design using design patterns. Develop
-  similar competent engineers over 1-2 years.
+- Guide multiple engineers on low-level design. Develop competent engineers
+  over 1-2 years.
 - Maintain neat Git history through rebasing, commit splicing and avoiding
   merge commits.
 
@@ -43,9 +45,10 @@ Some real life achievements:
 - Fully defined performance measurement procedure (sar, pidstat) and metrics
   (e.g. records processed per second per core) that was used across a dozen
   applications.
-- Introduced the use of Bash scripts (aka `run-tests.sh`) to do a basic
+- Introduced the use of Bash scripts (aka `run-tests.sh`) to do basic
   integration checks. (2020)
-- Traffic interception using iptables (2019)
+- Traffic interception using iptables. This was essential for a transparent
+  proxy that we wrote. (2019)
 - Log capture (sysdump, plugins)
 - Decision to write application logs to Kafka in a textual format (JSON).
   Reading from Kafka and writing to a database that was the initial choice did
@@ -56,7 +59,12 @@ Some real life achievements:
   guidelines.
 - Maintainer of more than 20 Git repos in the company.
 - Nearly https://stackoverflow.com/users/3636464/pdp[4000] rating in Stack
-  Overflow. Top 9% in 2022.
+  Overflow. Top 10% overall.
+- Blogs:
+  https://medium.com/@SoftwareEngineeringNotes/avoid-distractions-3aa93eef3[Avoid
+  Distractions],
+  https://www.guavus.com/technical-blog/7-new-rules-for-software-development/[7
+  New Rules for Software Development]
 
 == Who am I?
 
